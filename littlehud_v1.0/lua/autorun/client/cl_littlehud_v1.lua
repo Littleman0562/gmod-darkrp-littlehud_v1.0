@@ -117,8 +117,8 @@ function drawHUD()
 	drawSimpleText( "Salary: " .. DarkRP.formatMoney( ply:getDarkRPVar( "salary" ) ), "LittleFont", scrW-250, scrH+24, text, TEXT_ALIGN_LEFT )
 
 	-- Icons
-	CreateImageIcon( health_icon, bX+30, scrH+25, Color( 255, 0, 0 ) )
-	CreateImageIcon( shield_icon, bX+300, scrH+25, Color( 30,144,255 ) )
+	CreateImageIcon( health_icon, bX+30, scrH+25, Color( 255, 255, 255 ) )
+	CreateImageIcon( shield_icon, bX+300, scrH+25, Color( 255,255,255 ) )
 	CreateImageIcon( cash_icon, scrW-555, scrH+25, Color( 255, 255, 255 ) )
 	CreateImageIcon( cash_add_icon, scrW-285, scrH+25, Color( 255, 255, 255 ) )
 	CreateImageIcon( star_icon, bX+25, scrH-5, Color( 40, 40, 40 ), ply:isWanted() )
