@@ -65,22 +65,22 @@ function drawHUD()
 
 	local scrW, scrH	= ScrW(), ScrH() - 50
 
-	local cR, bX, bH	= 0, 0, 50
+	local cR, bX, bH		= 0, 0, 50
 
 	local mainBack			= Color( 70, 70, 70, 255 )
 	local backGround		= Color( 255, 128, 0, 200 )
 
-	local black				= Color( 20, 20, 20, 200 )
+	local black			= Color( 20, 20, 20, 200 )
 
 	local CHudHealth		= Color( 255, 102, 102, 255 )
 	local CHudBattery		= Color( 0, 102, 204, 255 )
-	local CHudHealthHigh	= Color( 255, 153, 153, 255 )
-	local CHudBatteryHigh	= Color( 0, 128, 255, 255 )
+	local CHudHealthHigh		= Color( 255, 153, 153, 255 )
+	local CHudBatteryHigh		= Color( 0, 128, 255, 255 )
 
 	local wallsal			= Color( 0, 153, 76, 255 )
 	local wallsalhigh		= Color( 0, 204, 102, 255 )
 
-	local text				= Color( 255, 255, 255, 255 )
+	local text			= Color( 255, 255, 255, 255 )
 
 
 
