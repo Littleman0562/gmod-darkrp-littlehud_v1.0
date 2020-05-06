@@ -63,7 +63,7 @@ function drawHUD()
 
 	local ply = LocalPlayer()
 
-	local scrW, scrH	= ScrW(), ScrH() - 50
+	local scrW, scrH		= ScrW(), ScrH() - 50
 
 	local cR, bX, bH		= 0, 0, 50
 
